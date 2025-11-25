@@ -1,5 +1,7 @@
 table {
   background-color: #BBEEDD;
+  border: 3px solid black;
+
 }
 
 thead:hover {
