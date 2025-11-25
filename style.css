@@ -1,21 +1,15 @@
 table {
   background-color: #BBEEDD;
-  border: 3px solid black;
-
-}
-
-thead:hover {
-  color: #FF00FF;
-}
-
-thead {
-  background-color: #BB0000;
   color: white;
   border: 3px solid black;
 }
 
-tbody {
-  background-color: #BBEEDD;
+thead th:hover {
+  color: #FF00FF;
+}
+
+thead th {
+  background-color: #BB0000;
   color: white;
   border: 3px solid black;
 }
