@@ -1,7 +1,12 @@
+
 thead {
-  color: red;
+  background-color: #BBEEDD;
+  color: white;
+  border: 3px;
 }
 
 tbody {
-  color: blue;
+  background-color: #BBEEDD;
+  color: white;
+  border: 3px;
 }
