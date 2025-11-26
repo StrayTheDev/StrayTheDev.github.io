@@ -9,6 +9,7 @@ h1::before {
 
 p {
   color: black;
+  font-size: 18px;
 }
 
 block {
