@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Embed Tutorial</title>
+  </head>
+  <body>
+    <block>
+      <h1>STEP 1: Copy Embed</h1>
+      <image src="image/step1.png">
+      <p>Go to the Youtube video you wish to embed, and click share. Select Embed, and copy the text shown on screen.</p>
+    </block>
+    <block>
+      <h1>STEP 2: Paste Embed</h1>
+      <image src="image/step2.png">
+      <p>Open your .html file, and paste the embed code in the \<body\> tag.</p>
+    </block>
+    <block>
+      <h1>STEP 3: Create a Div</h1>
+      <image src="image/step3.png">
+      <p>Create a div with a custom class, containing the embed code you just pasted.</p>
+    </block>
+    <block>
+      <h1>STEP 4: Create a Stylesheet to format your video</h1>
+      <image src="image/step4.png">
+      <p>Make a new .css stylesheet, and put all formatting for the video in the class you created for the div.</p>
+    </block>
 
+    <h1>Tutorial Video</h1>
+    <div class="video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ly36kn0ug4k?si=hsS5DVe0CtqGLTfj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </body>
+</html>
