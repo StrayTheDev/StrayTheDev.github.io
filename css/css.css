@@ -17,5 +17,5 @@ block {
 
 .display {
   width: 400px;
-  height: 255px;
+  height: auto;
 }
