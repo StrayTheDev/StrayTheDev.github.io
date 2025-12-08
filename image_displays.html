@@ -34,6 +34,10 @@
         border-top-left-radius: 50px;
         border-bottom-right-radius: 50px;
       }
+       .stage-container {
+        position: relative; /* Needed for absolute positioning */
+        width: 500px;
+      }
       .stage {
         width: 500px;
         filter: blur(5px);
@@ -54,12 +58,9 @@
     <image class="dinosaur" src="image/dinosaur.png">
     <image class="seagull" src="image/seagull.png">
     <image class="butterfly" src="image/butterfly.jpg">
-    <div>
-      <image class="stage" src="image/theater_stage.jpg">
-      <div style="position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); color: white; font-size:24px; text-shadow: 2px 2px 5px black; "><p>Welcome to the Stage</p></div>
-    </div><div>
-      <image class="stage" src="image/theater_stage.jpg">
-      <div style="position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); color: white; font-size:24px; text-shadow: 2px 2px 5px black; "><p>Welcome to the Stage</p></div>
+    <div class="stage-container">
+      <img class="stage" src="image/theater_stage.jpg">
+      <div class="stage-text">Welcome to the Stage</div>
     </div>
     </p>
   </body>
