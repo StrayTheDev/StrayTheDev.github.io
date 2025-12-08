@@ -35,9 +35,18 @@
         border-bottom-right-radius: 50px;
       }
       .stage {
-        position: relative
         width: 500px;
         filter: blur(5px);
+        display: block;
+      }
+      .stage-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 24px;
+        text-shadow: 2px 2px 5px black;
       }
     </style>
     <image class="penguin" src="image/penguins.jpg">
