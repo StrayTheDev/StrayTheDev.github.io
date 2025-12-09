@@ -12,6 +12,10 @@ h1, h2, h3 {
   text-shadow: 2px 2px 0 #00122A;
 }
 
+image {
+  text-align: center;
+}
+
 div {
   padding: 10px 200px;
   font-size: 24px;
