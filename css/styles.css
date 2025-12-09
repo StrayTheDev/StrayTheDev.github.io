@@ -12,6 +12,10 @@ h1, h2, h3 {
   text-shadow: 2px 2px 0 #00122A;
 }
 
+div {
+  padding: 10px 100px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -35,22 +39,6 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
-
-.button {
-  background-color: #F5C400;
-  color: #00122A;
-  padding: 10px 18px;
-  border-radius: 6px;
-  border: none;
-  font-weight: bold;
-  transition: 0.2s ease;
-}
-
-.button:hover {
-  background-color: #FFFFFF;
-  color: #0A2344;
-}
-
 
 table {
   width: 90%;
