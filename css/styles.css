@@ -14,6 +14,8 @@ h1, h2, h3 {
 
 div {
   padding: 10px 100px;
+  text-align: center;
+  color: #F5C400;
 }
 
 ul {
